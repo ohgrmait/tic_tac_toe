@@ -9,10 +9,10 @@ class Game
 
   def display_board
     @board.each_with_index do |row, index|
-      puts row.join('  |  ').prepend(' ')
+      puts row.join('  |  ').prepend('  ')
       next if index == @board.length - 1
 
-      puts '----|-----|----'
+      puts ' ----|-----|----'
     end
   end
 
