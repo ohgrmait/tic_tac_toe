@@ -4,7 +4,7 @@ require_relative 'lib/player'
 game = Game.new
 player = Player.new
 
-loop do
+until game.over?
   turn = player.turn
 
   print "~ Player #{turn} => "
