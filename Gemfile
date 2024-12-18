@@ -7,4 +7,4 @@ source 'https://rubygems.org'
 gem 'rubocop', '~> 1.69'
 gem 'rubocop-performance', '~> 1.23'
 
-gem "colorize", "~> 1.1"
+gem 'colorize', '~> 1.1'
