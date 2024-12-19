@@ -34,14 +34,15 @@
 ## Setup & Usage
 
 ### Setup
-- The target Ruby version for this project 3.3.5.
-- Users can take the Gemfile and do the following:
-  - `bundle install` to install gems, or
-  - `bundle exec [filename]` to run gems.
+- The Ruby version for this project 3.3.5.
+- `bundle install` installs the gems locally.
+- `bundle exec ruby [filename]` runs the file.
 
 ### Usage
 - For local use, users can either [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) and/or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repo, or
+  - `bundle install` and `bundle exec ruby main.rb` to play the game.
 - For remote use, users can try to directly run the game on [replit](https://replit.com/).
+  - click on `Run on Replit` and then click on `Confirm and close` to play the game.
 
 ## Self Reflections
 - > This project felt like more of a headache than [the previous ones](https://github.com/ohgrmait). The introduction and considerable use of OOP (object oriented programming) throughout this project made it harder for me to complete it. On top of that, the project specifications provided very little scaffolding so this was the very first project where I had to think on what entities would qualify for good classes and instance methods. I also had to do quite a bit of error handling to make sure the user input was clean and appropriate. Overall, it was a very satisfying experience which made me more confident in my newly obtained OOP sea legs.
