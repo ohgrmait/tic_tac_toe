@@ -45,6 +45,7 @@ class TicTacToe # rubocop:disable Style/Documentation
       turn = @player.turn
       grid_no = get_input(turn)
       @game.update_board(turn, grid_no)
+      puts ''
       @game.display_board
       puts ''
     end
