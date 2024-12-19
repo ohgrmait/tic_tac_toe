@@ -1,6 +1,8 @@
 <div align="center">
   <h1>Tic Tac Toe</h1>
 
+  [![Run on Replit](https://replit.com/badge?caption=Run%20on%20Replit)](https://replit.com/@ohgrmait/tictactoe?v=1)
+
   A Command Line Version of Tic Tac Toe
 </div>
 
